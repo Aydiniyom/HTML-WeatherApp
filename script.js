@@ -3,7 +3,7 @@ const apis = new Map([
     ["get-lat-lon-city", "http://api.openweathermap.org/geo/1.0/direct?limit=1"]
 ]);
 
-let apiKey = "f9cd3b24e118701f604622b918a81efd";
+let apiKey = "YOUR_API_KEY";
 let weatherData;
 
 function showLoading() {
